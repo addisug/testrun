@@ -1,1 +1,10 @@
 Creating a machine learning (ML) emulator for microphysics in the “Community Earth System Model (CESM)” is an advanced task that involves coupling data-driven ML methods with physically based climate models. This guide walks you through the steps to develop a microphysics ML emulator for CESM, focusing on key elements like data preparation, model development, integration, and testing. The example will assume you're emulating a cloud microphysics scheme, but the approach can be generalized.
+
+
+Convert data from CESM to a training appropriate format, then train an emulator
+
+For development of the mlmicrophysics package, continue reading. Otherwise, skip to Processing for usage directions:
+
+For development of the mlmicrophysics package
+    1. Make your code changes
+    2. Run python setup.py sdist bdist_wheel
